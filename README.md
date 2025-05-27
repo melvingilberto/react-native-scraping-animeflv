@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# 📺 animeflv-app
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Una aplicación desarrollada con [Expo](https://expo.dev/) y React Native que permite listar y reproducir episodios disponibles públicamente en el sitio [animeflv.net](https://www3.animeflv.net/). Esta app fue creada con fines **exclusivamente educativos y de práctica técnica**.
 
-## Get started
+---
 
-1. Install dependencies
+## ⚠️ Descargo de responsabilidad
 
-   ```bash
-   npm install
-   ```
+Este proyecto **NO tiene fines comerciales** ni pretende fomentar ni incentivar la piratería.
 
-2. Start the app
+- El objetivo principal es **explorar técnicas de scraping, navegación en React Native, consumo de contenido HTML externo** y manejo de `WebView`.
+- El código **no sigue necesariamente las mejores prácticas de desarrollo**, ya que fue realizado con fines de **prueba, aprendizaje y experimentación**.
+- Todo el contenido mostrado proviene de una fuente externa pública y no se almacena ni distribuye desde esta app.
+- **AnimeFLV.net no está afiliado a este proyecto** en forma alguna.
 
-   ```bash
-   npx expo start
-   ```
+Si decides usar parte de este proyecto, hazlo bajo tu propia responsabilidad y **siempre respetando los derechos de autor** y las leyes de tu país.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Tecnologías utilizadas
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Expo SDK
+- React Native
+- TypeScript
+- Expo Router
+- WebView
+- Cheerio (para scraping)
+- AsyncStorage
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 📚 Objetivos del proyecto
+
+- Aprender a estructurar una app móvil usando Expo Router.
+- Practicar extracción de datos desde HTML sin API oficial.
+- Implementar navegación dinámica entre pantallas con parámetros.
+- Explorar técnicas de persistencia local como "episodios vistos".
+- Aplicar temas claros y oscuros con soporte nativo.
+
+---
+
+## 🛠️ Instalación
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/tuusuario/animeflv-app.git
+cd animeflv-app
+yarn install
+npx expo start

@@ -1,9 +1,9 @@
 {
   "expo": {
+    "orientation": "default",
     "name": "animeflv-app",
     "slug": "animeflv-app",
     "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "animeflvapp",
     "userInterfaceStyle": "automatic",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.melvingilberto.animeflvapp"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "11676a0f-6721-40d7-9629-47ddc947f036"
+      }
     }
   }
 }
